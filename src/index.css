@@ -13,3 +13,9 @@ button {
   border-radius: 6px;
   cursor: pointer;
 }
+
+button:disabled {
+  background-color: #475569; /* slate-600 like gray */
+  cursor: not-allowed;
+  opacity: 0.6;
+}
